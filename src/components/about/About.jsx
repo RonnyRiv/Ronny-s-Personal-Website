@@ -11,29 +11,29 @@ const about = () => {
       <h5>Get to Know</h5>
       <h2>About Me</h2>
 
-      <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
+      <div className='container about__container'>
+        <div className='about__me'>
+          <div className='about__me-image'>
             <img src={ME} alt="About Image" />
           </div>
         </div>
-        <div className="about__content">
+        <div className='about__content'>
           <div className="about__cards">
 
-            <article>
+            <article className='about__card'>
               <LuMedal className="about__icon"/>
               <h5>Experience</h5>
               <small>5+ Years of School Experience</small>
             </article>
 
-            <article>
+            <article className='about__card'>
               <MdGroups2 className="about__icon"/>
               <h5>Groups</h5>
               <small>5+ Groups Participated in</small>
             </article>
 
-            <article>
-              <FaRegFolder className="about__icon"/>
+            <article className='about__card'>
+              <FaRegFolder className='about__icon'/>
               <h5>Projects</h5>
               <small>8+ Completed Projects</small>
             </article>
@@ -43,7 +43,7 @@ const about = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores recusandae id voluptatem molestiae voluptas mollitia dolor, unde assumenda consectetur illo? Saepe quidem, distinctio dignissimos odio reprehenderit quod aspernatur iste similique.
           </p>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
