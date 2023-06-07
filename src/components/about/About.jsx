@@ -40,7 +40,10 @@ const about = () => {
           </div>
 
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores recusandae id voluptatem molestiae voluptas mollitia dolor, unde assumenda consectetur illo? Saepe quidem, distinctio dignissimos odio reprehenderit quod aspernatur iste similique.
+            Hello my name is Ronny Rivera, I am a Towson University alumni. 
+            I graduated from Towson in December of 2022 with a Bachelor's of Science in Computer Science following a software engineer track along with a mathematics minor. 
+            Since graduating I have been working on personal projects such as this website as well as looking for work that will push me to learn more every day.
+            
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>

@@ -41,7 +41,8 @@
     margin-bottom: 0.8rem;
 }
 
-.hobby__list-icon {        
+.hobby__list-icon {     
+    size: 10em;   
     color: var(--color-primary);
     margin-top: 18px;
 }
