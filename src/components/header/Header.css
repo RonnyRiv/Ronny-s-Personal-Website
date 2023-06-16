@@ -61,6 +61,15 @@ header{
 }
 
 /* ================================ MEDIA QUERIES (MEDIUM DEVICES) ================================ */
+@media screen and (max-height: 2160),(max-width:3840px) {
+    .header__socials{
+        bottom: 26rem;
+    }
+    .scroll__down {
+        bottom: 28rem;
+    }
+}
+
 @media screen and (max-width:1024px) {
     .header{
         height: 68vh;

@@ -5,7 +5,7 @@ import{LuMedal} from 'react-icons/lu'
 import{MdGroups2} from 'react-icons/md'
 import{FaRegFolder} from 'react-icons/fa'
 
-const about = () => {
+const About = () => {
   return (
     <section id='about'>
       <h5>Get to Know</h5>
@@ -42,8 +42,8 @@ const about = () => {
           <p>
             Hello my name is Ronny Rivera, I am a Towson University alumni. 
             I graduated from Towson in December of 2022 with a Bachelor's of Science in Computer Science following a software engineer track along with a mathematics minor. 
-            Since graduating I have been working on personal projects such as this website as well as looking for work that will push me to learn more every day.
-            
+            Since graduating I have been working on personal projects such as this website as well as looking for work that will push me to learn more every day. 
+            I would ideally like to attain a software engineering position dealing with backend work, however, I am open to working most technological fields. 
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
@@ -53,4 +53,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

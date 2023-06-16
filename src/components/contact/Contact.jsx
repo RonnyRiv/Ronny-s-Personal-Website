@@ -6,7 +6,7 @@ import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -46,7 +46,6 @@ const contact = () => {
             <AiOutlinePhone className='contact__option-icon'/>
             <h4>Mobile</h4>
             <h5>240-994-7173</h5>
-            <a href="">Send a message</a>
           </article>
         </div>
         {/* End of contact options */}
@@ -54,11 +53,11 @@ const contact = () => {
           <input type="text" name='name' placeholder='Your Full Name' required/>
           <input type="email" name='email' placeholder='Your Email' required/>
           <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
-          <button type='submit' className="btn btn-primary">Send Message</button>
+          <button type='submit' className="btn btn-primary" align="center">Send Message</button>
         </form>
       </div>
     </section>
   )
 }
 
-export default contact
+export default Contact

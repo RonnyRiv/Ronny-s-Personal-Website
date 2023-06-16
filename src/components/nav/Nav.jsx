@@ -7,7 +7,7 @@ import{BiDumbbell} from 'react-icons/bi'
 import{AiOutlinePhone} from 'react-icons/ai'
 import{useState} from 'react'
 
-const nav = () => {
+const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav> 
@@ -20,4 +20,4 @@ const nav = () => {
   )
 }
 
-export default nav
+export default Nav

@@ -1,6 +1,8 @@
 import React from 'react'
 import './Portfolio.css'
 import IMG1 from 'C:/Users/Ronny/Desktop/PortfolioWebsite/src/assets/CatalogueImage.jpg'
+import IMG2 from 'C:/Users/Ronny/Desktop/PortfolioWebsite/src/assets/Testing.jpg'
+import Code from 'C:/Users/Ronny/Desktop/PortfolioWebsite/src/assets/JUnitSnippets.zip'
 
 const portfolio = () => {
   return (
@@ -16,20 +18,20 @@ const portfolio = () => {
           <h3>Portfolio Website using React</h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com/RonnyRiv/Ronny-s-Personal-Website" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://www.ronnyrivera.com" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
-        {/*
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />  
+            <img src={IMG2} alt="" />  
           </div>
-          <h3>Game Catalogue using React</h3>
+          <h3>JUnit testing</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/RonnyRiv/JUnitExamples" className='btn' target='_blank'>Github</a>
+            <a href={Code} download className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
-        </article><article className="portfolio__item">
+        </article>
+        {/*<article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />  
           </div>
